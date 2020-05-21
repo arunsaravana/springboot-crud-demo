@@ -6,7 +6,7 @@ pipeline {
 stages {
        stage('checkout') {
          steps {
-           mycodecheckout(branch: 'master', scmUrl: 'https://github.com/arunsaravana/spring-framework-petclinic.git')
+           mycodecheckout(branch: 'master', scmUrl: 'https://github.com/arunsaravana/springboot-crud-demo.git')
 		 }
       }
 
